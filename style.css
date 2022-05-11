@@ -1,0 +1,33 @@
+.page {
+    max-width: 1280px;
+    min-width: 320px;
+    background-color: #2A2c2f;
+    color: white;
+    font-family: Inter, Arial, sans-serif;
+}
+
+.header {
+    max-width: 1184px;
+    max-height: 52px;
+    margin: 28px 48px 0 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    height: 52px;
+    width: 176px;
+    padding: 0;
+}
+
+.header__lang-link {
+    height: 28px;
+    width: 30px;
+    margin: 0 48px 0 0;
+    color: white;
+}
+
+.header__lang-link:last-child {
+    margin: 0;
+}
