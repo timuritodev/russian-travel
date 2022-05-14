@@ -1,3 +1,5 @@
 .cover {
-    margin: 92px 48px 92px 48px;
+    padding: 92px 48px 0 48px;
+    max-width: 1184px;
+    margin: 0;
 }
