@@ -7,3 +7,28 @@
     margin: 0 0 12px 0;
     color: #AAAAAA;
 }
+
+.place__url-heading:last-child {
+    margin: 0;
+}
+
+@media screen and ( max-width:1279px) {
+    .place__url-heading {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and ( max-width:1023px) {
+    .place__url-heading {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+@media screen and ( max-width:767px) {
+    .place__url-heading {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
