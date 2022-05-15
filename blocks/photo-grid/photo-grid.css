@@ -3,7 +3,37 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
-    width: 1184px;
-    height: 671px;
+    padding-top: 92px;
     margin: auto;
+}
+
+@media screen and ( max-width:1279px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        max-width: 928px;
+        gap: 14px;
+    }
+}
+
+@media screen and ( max-width:1023px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        max-width: 720px;
+        gap: 16px;
+        margin-top: 88px;
+        padding: 0;
+    }
+}
+
+@media screen and ( max-width:767px) {
+    .photo-grid {
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: 1fr;
+        max-width: 288px;
+        margin-top: 64px;
+        gap: 12px;
+        padding: 0;
+    }
 }
