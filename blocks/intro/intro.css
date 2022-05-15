@@ -29,32 +29,3 @@
         margin-top: 64px;
     }
 }
-
-
-/*
-.intro {
-    max-width: 690px;
-    margin: 114px 0 92px 148px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-@media screen and ( max-width:1279px) {
-    .intro {
-        margin-right: 48px;
-        margin-top: 92px;
-    }
-}
-
-@media screen and ( max-width:1023px) {
-    .intro {
-        margin: 88px 16px 0 16px;
-    }
-}
-
-@media screen and ( max-width:767px) {
-    .intro {
-        margin-top: 40px 16px 0 16px;
-    }
-}
