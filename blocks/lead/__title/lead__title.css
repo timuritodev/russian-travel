@@ -15,15 +15,6 @@
     .lead__title {
         padding-left: 14px;
         padding-right: 14px;
-        font-weight: 900;
-        font-size: 40px;
-        line-height: 44px;
-    }
-}
-
-@media screen and ( max-width:319px) {
-    .lead__title {
-        font-weight: 900;
         font-size: 40px;
         line-height: 44px;
     }
